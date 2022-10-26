@@ -8,7 +8,7 @@ body{
 .bg_cl {
 	overflow: hidden;
 	margin-top: 30px;
-	padding: 35px;
+	padding: 0 30px 15px 30px;
 	background-color: #5a5284;
 	border-radius: 30px;
 }
@@ -68,7 +68,7 @@ body{
 	font-weight: 700;
 	margin-bottom: 80px;
 }
-.b_left a{
+.b_left .buton{
     color: white;
     background-color: #CEDF05;
     border-radius: 50px;
@@ -77,9 +77,24 @@ body{
     font-weight: 700;
     transition: .3s;
 }
-.b_left a:hover{
+.b_left .buton:hover{
     color:  #CEDF05;
     background-color: white;
+}
+.social{
+    margin-top: 175px;
+}
+.social a{
+    color: white;
+    margin-right: 20px;
+}
+.social a i{
+    color: white;
+    font-size: 25px;
+    transition: .3s;
+}
+.social a:hover i{
+    color: #CEDF05;
 }
 
 .b_right{
